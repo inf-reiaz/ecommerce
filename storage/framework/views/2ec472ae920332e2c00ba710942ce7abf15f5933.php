@@ -1,0 +1,32 @@
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title><?php echo $__env->yieldContent('title','Admin'); ?></title>
+
+        <!-- inject:css -->
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/bower_components/font-awesome/css/font-awesome.min.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/bower_components/simple-line-icons/css/simple-line-icons.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/bower_components/weather-icons/css/weather-icons.min.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/bower_components/themify-icons/css/themify-icons.css')); ?>">
+        <!-- endinject -->
+        
+        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">   
+
+
+        <!-- Main Style  -->
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/dist/css/main.css')); ?>">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.css">
+        <?php echo $__env->yieldContent('css'); ?>
+        <!-- Rickshaw Chart Depencencies -->
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/bower_components/rickshaw/rickshaw.min.css')); ?>">
+
+
+        <!--horizontal-timeline-->
+        <link rel="stylesheet" href="<?php echo e(asset('/public/admin/assets/js/horizontal-timeline/css/style.css')); ?>">
+
+
+        <script src="<?php echo e(asset('/public/admin/assets/js/modernizr-custom.js')); ?>"></script>
